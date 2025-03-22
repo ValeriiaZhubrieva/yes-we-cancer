@@ -498,7 +498,7 @@ body {
   color: var(--colors-neutral-neutral-0)
 }
 .footer {
-  padding: 32px 0 50px 0
+  padding-bottom: 50px
 }
 .footer__body {
   display: flex;
@@ -510,6 +510,9 @@ body {
   place-content: center;
   max-width: 264px;
   margin: 0 auto
+}
+.footer__logo:not(:last-child) {
+  margin-bottom: 20px
 }
 .footer__logo img {
   width: 100%;
@@ -856,27 +859,21 @@ body {
 .yescon__btns {
   display: flex;
   flex-direction: column;
-  gap: 8px
-}
-.events__slider {
-  margin: 0 -16px
+  gap: 10px
 }
 .events__navigation {
-  padding: 0 16px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 12px
 }
 .events__navigation:not(:last-child) {
-  margin-bottom: 20px
+  margin-bottom: 32px
 }
 .event-card {
   display: flex;
   flex-direction: column;
-  gap: 32px;
-  padding: 32px 16px;
-  background: linear-gradient(180deg,#e4e4e4 0,#fff 100%)
+  gap: 32px
 }
 .event-card__logo {
   margin: 0 auto;
@@ -968,7 +965,7 @@ body {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 8px
+  gap: 10px
 }
 .news__slider {
   margin: 0 -16px;
@@ -981,7 +978,7 @@ body {
   gap: 12px
 }
 .news__navigation:not(:last-child) {
-  margin-bottom: 20px
+  margin-bottom: 32px
 }
 .news-card {
   display: flex;
@@ -1023,7 +1020,7 @@ body {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 8px
+  gap: 10px
 }
 .newsletter__img:not(:last-child) {
   margin-bottom: 30px
@@ -1036,7 +1033,7 @@ body {
 .newsletter__from {
   display: flex;
   align-items: center;
-  gap: 4px
+  gap: 10px
 }
 .newsletter__input {
   background-color: rgba(255,255,255,.5);
